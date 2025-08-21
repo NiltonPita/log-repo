@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Adicionano mensagem de log
-        run:|
+        run: |
           echo "::debug::Mensagem de log Debug"
           echo "::warning::Mensagem de log Warning"
           echo "::notice::Mensagem de log Notice"
