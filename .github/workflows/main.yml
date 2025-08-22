@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Adicionano mensagem de log
         run: |
-          echos "::debug::Mensagem de log Debug"
+          echo "::debug::Mensagem de log Debug"
           echo "::warning::Mensagem de log Warning"
           echo "::notice::Mensagem de log Notice"
           echo "::error::Mensagem de log Error executado por ${{ github.actor }}"
